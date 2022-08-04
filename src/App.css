@@ -1,4 +1,30 @@
+
+a{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: ease-out 200ms
+}
+
+a:hover{
+  transform: scale(1.2);
+  text-decoration:underline;
+  transition: all 200ms ease;
+}
+
+a:visited{
+  color: black;
+}
+
+
 .container{
-  max-width: 1080px;
+  max-width: 900px;
   margin: 20px auto;
 }
+
+.greeting_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
