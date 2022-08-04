@@ -4,7 +4,7 @@ import Search from './components/search/search';
 function App() {
 
 const handleOnSearchChange= (searchData) => {
-  console.log("this")
+  console.log(searchData)
 } 
 
 
