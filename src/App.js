@@ -29,12 +29,11 @@ function App() {
       })
       .catch((err) => console.log(err));
   };
-  console.log(forecast);
 
   return (
     <div className="container">
       <div className="greeting_nav">
-        <h1>Hello, How's the weather in...</h1>
+        <h1>Hello, How's the weather in...  </h1>
         <a
           href="https://github.com/Zuckuu/weather-site"
           target={"_blank"}
@@ -52,7 +51,7 @@ function App() {
       </div>
       <Search onSearchChange={handleOnSearchChange} className="search_bar" />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      <Forecast/>
+      {forecast && <Forecast data={forecast} />}
     </div>
   );
 }

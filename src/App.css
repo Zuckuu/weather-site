@@ -11,6 +11,10 @@ a:hover{
   transition: all 200ms ease;
 }
 
+h1{
+  font-size: 30px;
+}
+
 a:visited{
   color: black;
 }
